@@ -1,0 +1,63 @@
+class car:
+    
+    def __init__(self, color, mark, body, transmission_type):
+     
+        self.color = color
+        self.mark = mark
+        self.body = body
+        self.speed = 0
+        self.transmission_type = transmission_type
+    
+    
+
+    def start(self):
+        print('speed = 10 km/h')
+        self.speed = 10
+
+    def stop(self):
+        print('speed = 0 km/h')
+        self.speed = 0
+    
+    def turn_right(self):
+        print('машина повернула направо')
+    
+    def turn_left(self):
+        print('машина повернула налево')
+    
+    def beep(self):
+        print('BEEEEEEP')
+     
+     
+    def speed_up(self, i=1):
+        print(f'speed = {self.speed + i} km/h')
+        self.speed += 2 * i
+
+    def speed_down(self, i=1):
+        if self.speed == 0:
+            print('speed = 0 km/h')
+        else:
+            print(f'speed = {self.speed - i} km/h')
+            self.speed -= i
+
+priora = car('blue', 'priora', 'sedan', 'auto')
+
+
+bmw = car( 'black', 'bmw', 'sedan', 'auto')
+
+bmw.start()
+bmw.speed_up()
+bmw.speed_down()
+bmw.turn_left()
+bmw.speed_up()
+bmw.beep()
+bmw.turn_right()
+bmw.stop()
+
+priora.start()
+priora.speed_up()
+priora.speed_down()
+priora.turn_left()
+priora.speed_up()
+priora.beep()
+priora.turn_right()
+priora.stop()
