@@ -1,0 +1,23 @@
+class cat:
+    
+ def __init__(self, name, age, color):
+     self.name = name
+     self.age = age
+     self.color = color
+ def info(self):
+     print(f'name:{self.name}, age:{self.age}, color:{self.color}')
+    
+ def miyy(self):
+     print('мяу')
+    
+ def myyr(self):
+     print('мур')
+    
+ def I_want_to_eat(self):
+     print('Я голодный')
+    
+cat = cat(input(), input(), input())
+cat.info()
+cat.miyy()
+cat.myyr()
+cat.I_want_to_eat()
