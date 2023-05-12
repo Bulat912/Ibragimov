@@ -1,0 +1,187 @@
+#1)
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    def __init__(self, name, age, color):
+        self.name = name
+        self.age = age
+        self.color = color
+    def info(self):
+    	print(f'name:{self.name}, age:{self.age}, color:{self.color}')
+
+    @abstractmethod 
+    def say(self):
+        pass
+
+class Cat(Animal):
+    def say(self):
+        print('meow')
+        
+class Dog(Animal):
+    def say(self):
+        print('Woof!')
+        
+        
+a = Dog('Шарик', 3, 'Коричневый')
+a.info()
+a.say()
+mc = Cat('Серый', 1, 'Серый')
+mc.info()
+mc.say() 
+
+2)
+class Father:
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname  = surname
+        
+    def printname(self):
+        print(f'name: {self.name}, surname: {self.surname}, patronim: {self.patronim}')
+
+class Child(Father):
+    def __init__(self,name, surname, patronim):
+        super().__init__(name, surname)
+        self.patronim = patronim
+    
+name = Child('Александр', "Александров", 'Александрович')
+name.printname()
+
+
+
+3)
+#a
+from abc import ABC, abstractmethod
+
+class Stationere(ABC):
+    def __init__(self, title):
+        self.title = title
+    @abstractmethod
+    def draw(self):
+        pass
+    
+class Pen(Stationere):
+    def __init__(self, color):
+        self.color = color
+    def draw(self):
+        print('Ручка пишет')
+            
+class Pencil(Stationere):
+    def __init__(self, color):
+        self.color = color
+    def draw(self):
+        print('Карандаш рисует')
+        
+class Handle(Stationere):
+    def __init__(self, color):
+        self.color = color
+    def draw(self):
+        print('Маркер работает')
+         
+p = Pen('blue')
+p.draw()
+pe = Pencil('white')
+pe.draw()
+h = Handle('black')
+h.draw()
+
+
+
+#b
+from abc import ABC, abstractmethod
+
+class Stationery(ABC):
+    def __init__(self, title):
+        self.title = title
+    @abstractmethod
+    def draw(self):
+        pass
+    def set_color(self, value):
+        self.color = value
+    
+    
+class Pen(Stationery):
+    def __init__(self, color):
+        self.color = color
+    def draw(self):
+        print('Ручка пишет')
+    def cl(self):
+        print(f'color: {self.color}')
+    
+    
+class Pencil(Stationery):
+    def __init__(self, color):
+        self.color = color
+    def draw(self):
+        print('Карандашь рисует')
+    def cl(self):
+        print(f'color: {self.color}')    
+        
+        
+class Handle(Stationery):
+    def __init__(self, color):
+        self.color = color
+    def draw(self):
+        print('Маркер работает')
+    def cl(self):
+        print(f'color: {self.color}')
+        
+        
+pen = Pen('blue')
+pencil = Pencil('white')
+handle = Handle('black')
+pen.draw()
+pencil.draw()
+handle.draw()
+pen.cl()
+pencil.cl()
+handle.cl()
+pen.set_color('yellow')
+pencil.set_color('yellow')
+handle.set_color('yellow')
+pen.cl()
+pencil.cl()
+handle.cl()
+
+
+
+
+
+4)
+class User:
+    def __init__(self, login, password):
+        self.login = login
+        self.password = password
+    def view(self):
+        print( "Я - User. Могу просматривать содержимое")
+
+class Moderator(User):
+    def __init__ (self, login, password, group_id):
+        super().__init__(login, password)
+        self.group_id = group_id
+    
+    def view(self):
+        print( "Я - Moderator. Могу просматривать содержимое")
+        
+    def redact(self):
+        print("Я - Moderator. Могу редактировать содержимое")
+        
+    def info(self):
+        print(f'login: {self.login}, password: {self.password}, group_id: {self.group_id}' )
+        
+user = User('bylka123','123456789')
+user.view()
+mod = Moderator('boss_of_gym','123456789', 7)
+mod.view()
+mod.redact()
+mod.info()
+
+
+5)
+from time import time, localtime
+class Clock:
+    @staticmethod
+    def say_time():
+        timee = localtime(time())
+        print(f'{timee.tm_hour}:{timee.tm_min}:{timee.tm_sec}')
+Clock.say_time()
+
