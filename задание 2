@@ -1,0 +1,21 @@
+class good:
+    
+ def __init__(self, name, price, weight):
+     self.name = name
+     self.age = price
+     self.cost = price * weight
+     self.weight = weight
+    
+    
+    
+ def calc(self):
+     
+     print(self.cost)
+    
+    
+    
+apple = good(input(), float(input()), float(input()))
+pear = good(input(), float(input()), float(input()))
+
+apple.calc()
+pear.calc()
