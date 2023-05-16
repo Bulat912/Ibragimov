@@ -1,0 +1,48 @@
+простые запросы 
+SELECT * from users u ;
+SELECT * FROM tasks t ;
+
+
+запросы с агрегациями 
+SELECT AVG(grade) AS srednee_znach FROM tasks t ;
+SELECT MAX(login) AS max_login_user FROM users u ;
+
+
+Сложными запросами с объединением 2-3 таблиц с помощью Join 2-3
+
+SELECT k.tasks , ku.id_Kyrs , ku.id_users FROM kyrs k
+JOIN kyrs_users ku ON ku.id_Kyrs = k.id_Kyrs
+WHERE k.tasks < 50;
+
+SELECT u.login , u.password , ku.id_Kyrs FROM users u
+JOIN kyrs_users ku ON ku.id_users = u.id_users
+WHERE ku.id+Kyrs = 13 ;
+
+
+SELECT kt.id_Kyrs , t.id_tasks , t.grade from tasks t 
+JOIN kyrs_tasks ON kt.id_tasks = t.id_tasks 
+WHERE grade>=4 ;
+
+
+Сложными запросами с объединениями 2-3 таблиц подзапросами 2-3
+
+SELECT u.password , u.login , p.id_Profile FROM users u 
+JOIN profile p ON p.id_users = u.id_users
+WHERE p.id_Profile IN (
+SELECT MAX(id_Profile)
+FROM profile p) ;
+
+
+SELECT k.tasks , kt.id_tasks , kt.id_Kyrs FROM kyrs_tasks kt
+JOIN kyrs k ON k.id_Kyrs = kt.id_Kyrs
+WHERE k.tasks = (
+SELECT tasks FROM kyrs k 
+WHERE tasks < 50
+LIMIT 1) ;
+
+SELECT t.grade , t.deadline , t.id_tasks , kt.id_Kyrs FROM tasks t
+JOIN kyrs_tasks kt ON kt.id_tasks = t.id_tasks
+WHERE kt.id_Kyrs = (
+SELECT id_Kyrs FROM kyrs k
+WHERE id_Kyrs > 70 
+LIMIT 1);
