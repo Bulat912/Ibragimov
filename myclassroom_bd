@@ -1,0 +1,694 @@
+#
+# TABLE STRUCTURE FOR: Kyrs
+#
+
+DROP TABLE IF EXISTS `Kyrs`;
+
+CREATE TABLE `Kyrs` (
+  `id_Kyrs` int(11) NOT NULL AUTO_INCREMENT,
+  `tasks` int(11) NOT NULL,
+  PRIMARY KEY (`id_Kyrs`)
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (1, 79);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (2, 13);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (3, 20);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (4, 96);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (5, 48);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (6, 89);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (7, 88);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (8, 33);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (9, 90);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (10, 78);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (11, 6);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (12, 74);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (13, 33);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (14, 13);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (15, 29);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (16, 71);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (17, 24);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (18, 1);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (19, 94);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (20, 92);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (21, 10);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (22, 16);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (23, 90);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (24, 65);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (25, 22);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (26, 13);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (27, 57);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (28, 61);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (29, 98);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (30, 100);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (31, 36);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (32, 28);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (33, 46);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (34, 33);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (35, 61);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (36, 68);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (37, 47);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (38, 16);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (39, 1);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (40, 28);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (41, 89);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (42, 43);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (43, 29);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (44, 41);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (45, 47);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (46, 34);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (47, 83);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (48, 68);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (49, 75);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (50, 8);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (51, 46);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (52, 54);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (53, 44);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (54, 12);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (55, 71);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (56, 15);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (57, 41);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (58, 30);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (59, 56);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (60, 40);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (61, 11);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (62, 47);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (63, 85);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (64, 92);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (65, 82);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (66, 67);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (67, 8);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (68, 87);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (69, 75);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (70, 20);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (71, 8);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (72, 28);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (73, 54);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (74, 57);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (75, 51);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (76, 60);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (77, 2);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (78, 86);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (79, 10);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (80, 86);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (81, 28);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (82, 20);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (83, 86);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (84, 93);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (85, 43);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (86, 53);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (87, 89);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (88, 97);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (89, 39);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (90, 95);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (91, 58);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (92, 99);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (93, 6);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (94, 89);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (95, 35);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (96, 2);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (97, 46);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (98, 28);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (99, 90);
+INSERT INTO `Kyrs` (`id_Kyrs`, `tasks`) VALUES (100, 96);
+
+
+#
+# TABLE STRUCTURE FOR: Kyrs_tasks
+#
+
+DROP TABLE IF EXISTS `Kyrs_tasks`;
+
+CREATE TABLE `Kyrs_tasks` (
+  `id_Kyrs` int(11) NOT NULL,
+  `id_tasks` int(11) NOT NULL,
+  KEY `id_Kyrs` (`id_Kyrs`),
+  KEY `id_tasks` (`id_tasks`),
+  CONSTRAINT `Kyrs_tasks_ibfk_1` FOREIGN KEY (`id_Kyrs`) REFERENCES `Kyrs` (`id_Kyrs`),
+  CONSTRAINT `Kyrs_tasks_ibfk_2` FOREIGN KEY (`id_tasks`) REFERENCES `tasks` (`id_tasks`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (1, 73);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (2, 70);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (3, 90);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (4, 66);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (5, 94);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (6, 80);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (7, 38);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (8, 35);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (9, 10);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (10, 10);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (11, 95);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (12, 18);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (13, 28);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (14, 79);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (15, 72);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (16, 22);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (17, 82);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (18, 16);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (19, 97);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (20, 38);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (21, 62);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (22, 3);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (23, 9);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (24, 89);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (25, 50);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (26, 73);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (27, 43);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (28, 48);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (29, 92);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (30, 35);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (31, 43);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (32, 23);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (33, 83);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (34, 25);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (35, 84);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (36, 40);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (37, 55);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (38, 27);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (39, 8);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (40, 78);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (41, 54);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (42, 40);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (43, 81);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (44, 30);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (45, 100);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (46, 21);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (47, 85);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (48, 24);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (49, 48);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (50, 44);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (51, 23);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (52, 95);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (53, 100);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (54, 45);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (55, 71);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (56, 83);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (57, 28);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (58, 32);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (59, 61);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (60, 51);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (61, 48);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (62, 44);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (63, 44);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (64, 29);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (65, 70);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (66, 81);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (67, 28);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (68, 93);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (69, 51);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (70, 29);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (71, 26);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (72, 26);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (73, 86);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (74, 4);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (75, 91);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (76, 100);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (77, 91);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (78, 80);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (79, 19);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (80, 12);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (81, 87);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (82, 100);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (83, 9);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (84, 76);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (85, 88);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (86, 43);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (87, 91);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (88, 96);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (89, 62);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (90, 37);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (91, 68);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (92, 6);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (93, 91);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (94, 83);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (95, 81);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (96, 70);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (97, 55);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (98, 67);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (99, 17);
+INSERT INTO `Kyrs_tasks` (`id_Kyrs`, `id_tasks`) VALUES (100, 39);
+
+
+#
+# TABLE STRUCTURE FOR: Kyrs_users
+#
+
+DROP TABLE IF EXISTS `Kyrs_users`;
+
+CREATE TABLE `Kyrs_users` (
+  `id_Kyrs` int(11) NOT NULL,
+  `id_users` int(11) NOT NULL,
+  KEY `id_users` (`id_users`),
+  KEY `id_Kyrs` (`id_Kyrs`),
+  CONSTRAINT `Kyrs_users_ibfk_1` FOREIGN KEY (`id_users`) REFERENCES `users` (`id_users`),
+  CONSTRAINT `Kyrs_users_ibfk_2` FOREIGN KEY (`id_Kyrs`) REFERENCES `Kyrs` (`id_Kyrs`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (13, 60);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (65, 47);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (81, 41);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (57, 11);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (42, 22);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (64, 62);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (3, 7);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (1, 2);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (37, 54);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (4, 52);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (84, 11);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (36, 72);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (62, 7);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (36, 68);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (41, 97);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (11, 86);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (20, 5);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (55, 57);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (79, 68);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (100, 96);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (91, 100);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (11, 55);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (33, 66);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (39, 100);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (89, 24);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (86, 85);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (94, 80);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (49, 85);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (23, 6);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (4, 98);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (35, 24);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (89, 63);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (7, 4);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (19, 3);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (66, 87);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (89, 16);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (14, 44);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (13, 86);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (55, 26);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (80, 37);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (40, 95);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (81, 42);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (91, 86);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (84, 66);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (27, 78);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (3, 3);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (1, 25);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (36, 85);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (100, 3);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (74, 4);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (1, 70);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (77, 68);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (19, 27);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (61, 66);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (61, 100);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (82, 17);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (13, 44);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (50, 8);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (100, 92);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (61, 27);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (2, 5);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (95, 27);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (92, 10);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (75, 40);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (51, 52);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (66, 96);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (34, 29);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (84, 64);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (53, 46);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (12, 32);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (45, 65);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (47, 40);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (85, 44);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (66, 83);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (51, 95);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (63, 77);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (62, 96);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (82, 86);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (35, 41);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (28, 39);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (85, 10);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (68, 3);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (47, 46);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (32, 86);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (31, 53);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (81, 17);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (80, 42);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (55, 26);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (35, 37);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (5, 80);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (42, 20);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (97, 87);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (22, 69);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (7, 88);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (49, 91);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (36, 42);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (49, 79);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (37, 5);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (97, 63);
+INSERT INTO `Kyrs_users` (`id_Kyrs`, `id_users`) VALUES (30, 41);
+
+
+#
+# TABLE STRUCTURE FOR: Profile
+#
+
+DROP TABLE IF EXISTS `Profile`;
+
+CREATE TABLE `Profile` (
+  `id_Profile` int(11) NOT NULL AUTO_INCREMENT,
+  `id_users` int(11) NOT NULL,
+  PRIMARY KEY (`id_Profile`),
+  KEY `id_users` (`id_users`),
+  CONSTRAINT `Profile_ibfk_1` FOREIGN KEY (`id_users`) REFERENCES `users` (`id_users`)
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (1, 1);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (2, 2);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (3, 3);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (4, 4);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (5, 5);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (6, 6);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (7, 7);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (8, 8);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (9, 9);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (10, 10);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (11, 11);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (12, 12);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (13, 13);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (14, 14);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (15, 15);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (16, 16);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (17, 17);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (18, 18);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (19, 19);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (20, 20);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (21, 21);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (22, 22);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (23, 23);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (24, 24);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (25, 25);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (26, 26);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (27, 27);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (28, 28);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (29, 29);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (30, 30);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (31, 31);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (32, 32);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (33, 33);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (34, 34);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (35, 35);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (36, 36);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (37, 37);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (38, 38);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (39, 39);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (40, 40);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (41, 41);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (42, 42);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (43, 43);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (44, 44);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (45, 45);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (46, 46);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (47, 47);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (48, 48);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (49, 49);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (50, 50);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (51, 51);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (52, 52);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (53, 53);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (54, 54);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (55, 55);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (56, 56);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (57, 57);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (58, 58);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (59, 59);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (60, 60);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (61, 61);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (62, 62);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (63, 63);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (64, 64);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (65, 65);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (66, 66);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (67, 67);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (68, 68);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (69, 69);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (70, 70);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (71, 71);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (72, 72);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (73, 73);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (74, 74);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (75, 75);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (76, 76);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (77, 77);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (78, 78);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (79, 79);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (80, 80);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (81, 81);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (82, 82);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (83, 83);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (84, 84);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (85, 85);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (86, 86);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (87, 87);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (88, 88);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (89, 89);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (90, 90);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (91, 91);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (92, 92);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (93, 93);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (94, 94);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (95, 95);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (96, 96);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (97, 97);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (98, 98);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (99, 99);
+INSERT INTO `Profile` (`id_Profile`, `id_users`) VALUES (100, 100);
+
+
+#
+# TABLE STRUCTURE FOR: tasks
+#
+
+DROP TABLE IF EXISTS `tasks`;
+
+CREATE TABLE `tasks` (
+  `id_tasks` int(11) NOT NULL AUTO_INCREMENT,
+  `grade` int(11) NOT NULL,
+  `deadline` datetime NOT NULL,
+  PRIMARY KEY (`id_tasks`)
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (1, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (2, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (3, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (4, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (5, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (6, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (7, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (8, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (9, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (10, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (11, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (12, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (13, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (14, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (15, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (16, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (17, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (18, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (19, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (20, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (21, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (22, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (23, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (24, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (25, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (26, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (27, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (28, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (29, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (30, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (31, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (32, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (33, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (34, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (35, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (36, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (37, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (38, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (39, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (40, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (41, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (42, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (43, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (44, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (45, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (46, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (47, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (48, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (49, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (50, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (51, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (52, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (53, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (54, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (55, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (56, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (57, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (58, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (59, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (60, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (61, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (62, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (63, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (64, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (65, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (66, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (67, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (68, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (69, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (70, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (71, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (72, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (73, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (74, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (75, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (76, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (77, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (78, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (79, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (80, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (81, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (82, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (83, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (84, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (85, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (86, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (87, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (88, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (89, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (90, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (91, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (92, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (93, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (94, 3, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (95, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (96, 4, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (97, 5, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (98, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (99, 2, '2023-03-01 00:00:00');
+INSERT INTO `tasks` (`id_tasks`, `grade`, `deadline`) VALUES (100, 5, '2023-03-01 00:00:00');
+
+
+#
+# TABLE STRUCTURE FOR: users
+#
+
+DROP TABLE IF EXISTS `users`;
+
+CREATE TABLE `users` (
+  `id_users` int(11) NOT NULL AUTO_INCREMENT,
+  `login` int(11) NOT NULL,
+  `password` int(11) NOT NULL,
+  PRIMARY KEY (`id_users`)
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (1, 59, 92569);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (2, 84, 12522);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (3, 17, 29432);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (4, 47, 53173);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (5, 63, 76408);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (6, 99, 63427);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (7, 34, 48727);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (8, 90, 52101);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (9, 96, 15111);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (10, 47, 59339);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (11, 47, 93763);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (12, 18, 43736);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (13, 17, 51621);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (14, 8, 29231);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (15, 76, 91117);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (16, 66, 47965);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (17, 39, 87139);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (18, 64, 44960);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (19, 42, 32146);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (20, 36, 48354);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (21, 43, 89299);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (22, 63, 95819);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (23, 97, 99464);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (24, 68, 85155);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (25, 31, 60008);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (26, 47, 22991);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (27, 86, 84478);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (28, 32, 57318);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (29, 23, 17621);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (30, 28, 57458);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (31, 74, 25719);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (32, 79, 13089);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (33, 80, 92626);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (34, 63, 65907);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (35, 21, 91959);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (36, 8, 54645);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (37, 76, 58604);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (38, 40, 79499);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (39, 88, 23586);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (40, 27, 60452);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (41, 4, 73772);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (42, 96, 45972);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (43, 58, 61632);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (44, 62, 46259);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (45, 25, 28573);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (46, 73, 47257);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (47, 49, 75537);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (48, 51, 92693);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (49, 52, 54144);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (50, 4, 94894);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (51, 41, 98443);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (52, 85, 44359);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (53, 27, 52788);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (54, 50, 81099);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (55, 95, 70464);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (56, 24, 74203);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (57, 75, 66524);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (58, 60, 12809);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (59, 88, 81815);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (60, 97, 30845);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (61, 48, 87821);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (62, 88, 41125);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (63, 61, 57517);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (64, 55, 90774);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (65, 62, 13836);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (66, 1, 34400);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (67, 22, 92366);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (68, 93, 77419);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (69, 8, 56406);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (70, 10, 84238);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (71, 37, 69721);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (72, 92, 56854);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (73, 83, 17857);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (74, 42, 81176);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (75, 9, 16116);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (76, 9, 42447);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (77, 10, 51101);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (78, 46, 30344);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (79, 6, 19099);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (80, 25, 16351);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (81, 12, 81622);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (82, 26, 83433);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (83, 29, 79250);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (84, 95, 72899);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (85, 93, 98773);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (86, 80, 34435);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (87, 34, 33174);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (88, 45, 34822);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (89, 40, 85083);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (90, 21, 91116);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (91, 63, 88202);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (92, 75, 15992);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (93, 41, 47686);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (94, 66, 85197);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (95, 88, 32986);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (96, 39, 77912);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (97, 73, 17780);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (98, 85, 93829);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (99, 36, 10650);
+INSERT INTO `users` (`id_users`, `login`, `password`) VALUES (100, 49, 98903);
+
+
