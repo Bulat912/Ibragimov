@@ -1,0 +1,117 @@
+1.
+
+drop procedure if exists countht;
+
+delimiter //
+
+create procedure countht()
+
+begin
+
+        drop table if exists temp;
+
+        create temporary table temp
+
+        select hometown, count(*)
+
+        from profiles
+
+        group by hometown;
+
+
+end //
+
+delimiter ;
+
+call countht();
+
+
+2.drop trigger if exists user_delete;
+
+delimiter //
+
+create trigger user_delete after delete on users
+
+for each row
+
+begin delete from profiles p where p.user_Id = old.id;
+
+end //
+
+delimiter ;
+
+
+3.drop trigger if exists bdupdate;
+
+delimiter //
+
+create trigger bdupdate after insert on profiles
+
+for each row
+
+if new.birthday > curdate() then
+
+        insert into profiles(birthday) values (curdate());
+
+end if //
+
+delimiter ;
+
+
+4.drop trigger if exists md;
+
+delimiter //
+
+create trigger md after update media
+
+for each row
+
+begin
+
+        insert into media(updated_at) values (curdate(), curtime());
+
+end
+
+delimiter ;
+
+
+
+
+5.drop trigger if exists checkins;
+
+delimiter //
+
+create trigger checkins after update on users
+
+for each row
+
+if new.firstname is null or new.lastname is null or new.email is null or new.phone not like '7%' then
+
+        set @message_text = 'Invalid user data';
+
+end if //
+
+delimiter ;
+
+
+
+
+6.drop function if exists deletefunc;
+
+delimiter //
+
+create function deletefunc(us_id bigint)
+
+returns int reads sql data not deterministic
+
+begin
+
+        delete from users where id = us_id;
+
+        delete from profiles where user_id = us_id;
+
+return 1;
+
+end //
+
+delimiter ;
