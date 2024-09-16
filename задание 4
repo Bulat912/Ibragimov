@@ -1,0 +1,70 @@
+class Car:
+  def __init__(self,mark,body,transmission,speed=0,color='black'):
+    self.mark=mark
+    self.body=body
+    self.transmission=transmission
+    self.color=color
+    self.speed=speed
+
+
+  def start(self) :
+    self.speed= 10
+    print(f'{self.mark} speed = {self.speed} km/h')
+
+  def stop (self) :
+    self.speed = 0
+    print(f'{self.mark} speed = {self.speed} km/h') 
+  
+  def turn_left(self) :
+    print('Car turn left')
+  
+
+  def turn_right(self) :
+    print('Car turn right')
+
+  def speed_up(self, value=1) :
+    self.speed +=value
+    print(f'{self.mark} speed={self.speed} km/h')
+
+  def speed_down(self, value=1):
+    if self.speed == 0 :
+      print(f'{self.mark} speed = 0 km/h')
+    else :
+      self.speed -= value
+      print(f'{self.mark} speed = {self.speed} km/h')
+
+  def beep(self) :
+    print(f'{self.mark} beep')
+
+  def warning(self) :
+    if self.mark == 'Priora' and self.speed > 60 :
+      print(f'Скорость превышена! Лимит скорости здесь 60 км/ч')
+    elif self.mark == 'Honda' and self.speed > 80 :
+      print(f'Скорость превышена! Лимит скорости 80 км/ч')
+
+truck = Car('Priora', 'truck','auto',40,'black',)
+car =Car('Honda','car','auto',80,'white')
+
+
+
+
+
+truck.start()
+truck.speed_up(70)
+truck.warning()
+truck.beep()
+truck.speed_down(50)
+truck.turn_left()
+truck.turn_right()
+truck.stop()
+
+
+
+car.start
+car.speed_up(150)
+car.warning()
+car.beep()
+car.speed_down(180)
+car.turn_right()
+car.turn_left()
+car.stop()
